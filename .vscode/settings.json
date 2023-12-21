@@ -1,0 +1,38 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "never",
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit"
+  },
+  // 关闭 vscode 默认的检查工具
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "stylelint.validate": [
+    "css",
+    "less",
+    "postcss",
+    "scss",
+    "vue",
+    "sass"
+  ],
+  "eslint.run": "onSave",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "vue-html",
+    "vue",
+    "html",
+    "json",
+    "json5",
+    "jsonc",
+    "yaml"
+  ],
+  "eslint.options": {
+    "extensions": [".ts", ".tsx", ".vue"]
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "svg.preview.background": "black"
+}

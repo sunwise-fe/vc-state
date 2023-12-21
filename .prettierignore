@@ -1,0 +1,12 @@
+*.cssr.js
+*.cssr.ts
+
+
+public
+build/*.js
+dist
+node_modules/*
+
+
+#docs
+.vscode/settings.json

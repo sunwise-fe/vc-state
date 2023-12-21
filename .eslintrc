@@ -1,0 +1,9 @@
+{
+  "extends": ["@sunwise/eslint-config"],
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "vue/attribute-hyphenation": "off"
+  }
+}
