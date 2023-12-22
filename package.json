@@ -31,11 +31,14 @@
   "module": "dist/index.es.js",
   "unpkg": "dist/vc-state.min.js",
   "browser": "dist/vc-state.min.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "typings": "dist/index.d.ts",
   "scripts": {
     "dev": "rimraf dist && rollup -w -c rollup.config.ts",
     "build": "rimraf dist && rollup -c rollup.config.ts",
-    "deploy": "pnpm run build && pnpm publish --no-git-check"
+    "deploy": "bumpp -r && pnpm run build && pnpm publish --no-git-check"
   },
   "peerDependencies": {
     "vue": ">=3.0.0"
@@ -46,6 +49,7 @@
     "@sunwise/eslint-config": "1.0.1-beta.0",
     "@vue/runtime-core": "^3.2.38",
     "@vue/runtime-dom": "^3.2.38",
+    "bumpp": "^9.2.1",
     "esbuild": "^0.14.8",
     "prettier": "^3.1.1",
     "rimraf": "^3.0.2",
