@@ -8,7 +8,7 @@
 </template>
 
 <script setup lang="ts">
-  import { ThemeContextProvider } from './useThemeContext.ts'
+  import { ThemeContextProvider } from './theme.context'
   import MyPannel from './MyPannel.vue'
   import MyButton from './MyButton.vue'
 </script>
