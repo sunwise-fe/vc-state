@@ -1,6 +1,6 @@
 {
   "name": "@sunwise/vc-state",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "在Vue3中使用createContext优雅地实现依赖注入",
   "keywords": [
     "vue",
