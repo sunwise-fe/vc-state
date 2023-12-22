@@ -18,7 +18,7 @@ pnpm add @sunwise/vc-state
 
 ```tsx
 import { computed, defineComponent, ref } from 'vue'
-import { createContext } from 'vc-state'
+import { createContext } from '@sunwise/vc-state'
 
 type Theme = 'dark' | 'light'
 
